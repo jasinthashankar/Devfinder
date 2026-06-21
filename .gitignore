@@ -1,0 +1,23 @@
+# Environment files — NEVER commit real credentials
+.env
+backend/.env
+frontend/.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
